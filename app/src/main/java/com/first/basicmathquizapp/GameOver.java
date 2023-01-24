@@ -25,7 +25,7 @@ public class GameOver extends AppCompatActivity {
         Intent intent = getIntent();
         score = intent.getIntExtra("point", 0);
         String fScore = String.valueOf(score);
-        finalScore.setText("Final Score: "+fScore);
+        finalScore.setText("Your Final Score: "+fScore);
 
         restart.setOnClickListener(new View.OnClickListener() {
             @Override
